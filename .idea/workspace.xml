@@ -1,9 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33ef95f5-0526-466c-b139-eac8c13e8379" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/es_MX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ko_KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/nb_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/sl_SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/ta_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langs/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/help/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/content.mobile.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/skin.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/skin.mobile.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins/lightgray/skin.mobile.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery.tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langs/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/advlist/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/advlist/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/anchor/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/anchor/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autolink/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autolink/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autoresize/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autoresize/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autosave/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/autosave/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/bbcode/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/bbcode/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/charmap/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/charmap/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/code/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/code/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/codesample/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/codesample/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/colorpicker/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/colorpicker/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/contextmenu/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/contextmenu/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/directionality/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/directionality/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/emoticons/js/emojis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/emoticons/js/emojis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/emoticons/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/emoticons/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fullpage/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fullpage/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fullscreen/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/fullscreen/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/help/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/help/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/hr/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/hr/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/image/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/image/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/imagetools/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/imagetools/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/importcss/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/importcss/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/insertdatetime/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/insertdatetime/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/legacyoutput/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/legacyoutput/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/link/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/link/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/lists/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/lists/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/media/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/media/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/nonbreaking/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/nonbreaking/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/noneditable/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/noneditable/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pagebreak/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/pagebreak/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/paste/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/paste/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/preview/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/preview/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/print/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/print/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/quickbars/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/quickbars/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/save/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/save/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/searchreplace/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/searchreplace/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/spellchecker/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/spellchecker/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/tabfocus/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/tabfocus/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/table/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/table/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/template/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/template/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/textcolor/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/textcolor/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/textpattern/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/textpattern/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/toc/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/toc/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/visualblocks/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/visualblocks/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/visualchars/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/visualchars/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/wordcount/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/wordcount/plugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/dark/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/dark/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/dark/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/default/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/default/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/default/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/document/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/document/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/document/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/writer/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/writer/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/content/writer/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.inline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.inline.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/content.mobile.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide-dark/skin.mobile.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.inline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.inline.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.inline.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.mobile.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/content.mobile.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/fonts/tinymce-mobile.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skins/ui/oxide/skin.mobile.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mobile/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mobile/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/silver/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/silver/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinymce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/tinymce.min.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VNcJkxT4ndxtAsKolBV9aTmtRR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33ef95f5-0526-466c-b139-eac8c13e8379" name="Default Changelist" comment="" />
+      <created>1577096923503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577096923503</updated>
+      <workItem from="1577096924667" duration="1532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
