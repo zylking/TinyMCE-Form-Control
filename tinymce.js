@@ -7011,10 +7011,13 @@
         remove$2(rogue);
       });
     };
-    var remove$2 = function (element) {
+    var remove$2 = function (element, editor) {
       var dom = element.dom();
-      if (dom.parentNode !== null)
+      var parentNode = dom.parentNode;
+      if (dom.parentNode !== null) {
+        if (editor) editor.execCommand('controlRemove', parentNode, dom);
         dom.parentNode.removeChild(dom);
+      }
     };
     var unwrap = function (wrapper) {
       var children$$1 = children(wrapper);
@@ -11205,8 +11208,14 @@
     };
     var BlockBoundaryDelete = {backspaceDelete: backspaceDelete};
 
-    var deleteRangeMergeBlocks = function (rootNode, selection) {
+    var deleteRangeMergeBlocks = function (rootNode, editor) {
+      var selection = editor.selection;
       var rng = selection.getRng();
+      var nodeDiv = document.createElement('div');
+      nodeDiv.innerHTML = selection.getContent();
+
+      editor.execCommand('controlRemoveRange', selection.getNode(), nodeDiv);
+
       return liftN([
         DeleteUtils.getParentBlock(rootNode, Element$$1.fromDom(rng.startContainer)),
         DeleteUtils.getParentBlock(rootNode, Element$$1.fromDom(rng.endContainer))
@@ -11243,7 +11252,7 @@
     var deleteRange = function (editor) {
       var rootNode = Element$$1.fromDom(editor.getBody());
       var rng = editor.selection.getRng();
-      return isEverythingSelected(rootNode, rng) ? emptyEditor(editor) : deleteRangeMergeBlocks(rootNode, editor.selection);
+      return isEverythingSelected(rootNode, rng) ? emptyEditor(editor) : deleteRangeMergeBlocks(rootNode, editor);
     };
     var backspaceDelete$1 = function (editor, forward) {
       return editor.selection.isCollapsed() ? false : deleteRange(editor);
@@ -11578,14 +11587,14 @@
         return Option.none();
       }
     };
-    var deleteNormalized = function (elm, afterDeletePosOpt, normalizeWhitespace) {
+    var deleteNormalized = function (elm, afterDeletePosOpt, normalizeWhitespace, editor) {
       var prevTextOpt = prevSibling(elm).filter(function (e) {
         return NodeType.isText(e.dom());
       });
       var nextTextOpt = nextSibling(elm).filter(function (e) {
         return NodeType.isText(e.dom());
       });
-      remove$2(elm);
+      remove$2(elm, editor);
       return liftN([
         prevTextOpt,
         nextTextOpt,
@@ -11616,7 +11625,7 @@
       }
       var afterDeletePos = findCaretPosOutsideElmAfterDelete(forward, editor.getBody(), elm.dom());
       var parentBlock = ancestor(elm, curry(isBlock$2, editor), eqRawNode(editor.getBody()));
-      var normalizedAfterDeletePos = deleteNormalized(elm, afterDeletePos, isInlineElement(editor, elm));
+      var normalizedAfterDeletePos = deleteNormalized(elm, afterDeletePos, isInlineElement(editor, elm), editor);
       if (editor.dom.isEmpty(editor.getBody())) {
         editor.setContent('');
         editor.selection.setCursorLocation();
