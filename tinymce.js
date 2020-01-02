@@ -11245,6 +11245,7 @@
       return !isSelectionInTable(root, rng) && noPrevious && noNext;
     };
     var emptyEditor = function (editor) {
+      editor.execCommand('controlRemoveAll');
       editor.setContent('');
       editor.selection.setCursorLocation();
       return true;
