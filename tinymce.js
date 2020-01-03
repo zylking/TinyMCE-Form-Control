@@ -16332,6 +16332,7 @@
         if (!isContentEditableFalse$9(node)) {
           return null;
         }
+
         targetClone = origTargetClone = node.cloneNode(true);
         e = editor.fire('ObjectSelected', {
           target: node,
@@ -16356,7 +16357,12 @@
           range$$1.setStartAfter($realSelectionContainer[0].firstChild.firstChild);
           range$$1.setEndAfter(targetClone);
         } else {
-          $realSelectionContainer.empty().append('\xA0').append(targetClone).append('\xA0');
+          var divObj1 = document.createElement('div');
+          divObj1.appendChild(targetClone);
+          var divObj2 = document.createElement('div');
+          divObj2.innerHTML = divObj1.innerHTML;
+
+          $realSelectionContainer.empty().append('\xA0').append(divObj2.childNodes[0]).append('\xA0');
           range$$1.setStart($realSelectionContainer[0].firstChild, 1);
           range$$1.setEnd($realSelectionContainer[0].lastChild, 0);
         }
