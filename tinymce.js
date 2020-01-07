@@ -13836,7 +13836,7 @@
       return editor.readonly ? 'readonly' : 'design';
     };
     var isReadOnly = function (editor) {
-      return editor.readonly === true;
+      return editor.readonly === true && editor.modeName === 'readonly';
     };
 
     var DOM$1 = DOMUtils$1.DOM;
@@ -24014,6 +24014,7 @@
       body = editor.getBody();
       body.disabled = true;
       editor.readonly = settings.readonly;
+      editor.modeName = settings.modeName;
       if (!editor.readonly) {
         if (editor.inline && DOM$2.getStyle(body, 'position', true) === 'static') {
           body.style.position = 'relative';
