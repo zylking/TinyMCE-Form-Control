@@ -13857,7 +13857,7 @@
       return editor.getBody();
     };
     var isListening = function (editor) {
-      return !editor.hidden && !editor.readonly;
+      return !editor.hidden && editor.modeName !== 'readonly';
     };
     var fireEvent = function (editor, eventName, e) {
       if (isListening(editor)) {
