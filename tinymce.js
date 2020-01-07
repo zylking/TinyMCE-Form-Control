@@ -13861,7 +13861,13 @@
     };
     var fireEvent = function (editor, eventName, e) {
       if (isListening(editor)) {
-        editor.fire(eventName, e);
+        if (editor.modeName === 'edit') {
+          if (['click', 'focusin', 'focusout', 'mouseup', 'input'].includes(eventName)) {
+            editor.fire(eventName, e);
+          }
+        } else {
+          editor.fire(eventName, e);
+        }
       } else if (isReadOnly(editor)) {
         e.preventDefault();
       }
