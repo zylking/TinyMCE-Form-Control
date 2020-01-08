@@ -23236,6 +23236,7 @@
     };
     var normalizeNbspAtStart = function (root, node, text) {
       var firstPos = CaretPosition(node, 0);
+      console.log('firstPos', firstPos);
       if (isNbspAt(text, 0) && !needsToBeNbspLeft(root, firstPos)) {
         return ' ' + text.slice(1);
       } else {
@@ -23265,7 +23266,8 @@
         var text = container.nodeValue;
         var newText = normalizeNbspAtStart(root, container, normalizeNbspMiddle(normalizeNbspAtEnd(root, container, text)));
         if (text !== newText) {
-          pos.container().nodeValue = newText;
+          // 修复连续空格问题，等待测试
+          // pos.container().nodeValue = newText;
           return Option.some(pos);
         } else {
           return Option.none();
