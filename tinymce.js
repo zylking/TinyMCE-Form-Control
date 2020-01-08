@@ -23236,7 +23236,6 @@
     };
     var normalizeNbspAtStart = function (root, node, text) {
       var firstPos = CaretPosition(node, 0);
-      console.log('firstPos', firstPos);
       if (isNbspAt(text, 0) && !needsToBeNbspLeft(root, firstPos)) {
         return ' ' + text.slice(1);
       } else {
